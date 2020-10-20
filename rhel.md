@@ -31,3 +31,11 @@ List known, disabled repositories for this system:
 subscription-manager repos --list-disabled
 ```
 
+#### YUM
+```
+yum repolist
+```
+#### RHSM configuration
+```
+cat /etc/rhsm/rhsm.conf
+```
