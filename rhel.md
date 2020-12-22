@@ -30,6 +30,14 @@ List known, disabled repositories for this system:
 ```
 subscription-manager repos --list-disabled
 ```
+Repository to enable:
+```
+subscription-manager repos --enable=REPOID
+```
+Repository to disable:
+```
+subscription-manager repos --disable=REPOID
+```
 
 #### YUM
 ```
