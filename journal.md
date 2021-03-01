@@ -9,3 +9,8 @@ Follow the journal messages:
 ```
 journalctl -xf
 ```
+
+List all boots made:
+```
+journalctl --list-boots
+```
