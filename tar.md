@@ -1,6 +1,13 @@
 # tar
 
-Extracting tar.gz file:
+Extracting tar files `tar.xz` `tar.gz`:
 ```
-tar -xvf archive.tar.gz
+# verbose
+
+tar -xvf file.tar.gz
+
+# without verbose
+
+tar -xf file.tar.xz
+
 ```
