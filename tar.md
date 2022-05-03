@@ -14,5 +14,5 @@ tar -xf file.tar.xz
 
 List the content of tar files:
 ```
-tar -tf file.tar.xz
+tar -tvf file.tar.xz
 ```
