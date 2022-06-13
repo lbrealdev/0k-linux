@@ -15,3 +15,8 @@ Delete line 5:
 sed -i '5d' az-pvc.yml
 ```
 
+Comment line 3 with # and add `nameserver ip` to the last line in resolv.conf file:
+```
+sed -i -e '3s/^/# /' -e '$ a nameserver 180.100.250.01' /etc/resolv.conf
+```
+
