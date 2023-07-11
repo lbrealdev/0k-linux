@@ -1,14 +1,23 @@
 # find
-```
+
+### Use
+
+Use find to search in `/var/local/*` without entering subdirectories, looking only for directories that were modified in the last 7 days, and print their paths:
+```shell
 find /var/local/* -maxdepth 1 -type d -mtime 7 -print
 ```
 
+Use find to search in the current directory, print the paths of the found items, redirect the error output (stderr), and filter the results using grep:
+```shell
+find ./ -print 2>&1 | grep "<stuff>"
 ```
-find ./ -print 2>&1 | grep "$item"
 
-find ./ -print 2>&1 | grep -Rin "$item"
+The same command as the previous one, but now using the option to search recursively in all files and directories, ignoring case sensitivity, and displaying the line number where the pattern is found:
+```shell
+find ./ -print 2>&1 | grep -Rin "<stuff>"
 ```
 
-```
+// to do
+```shell
 find /home/user/ -name main.yml -ls
 ```
