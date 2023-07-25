@@ -10,12 +10,14 @@ git --version
 Check installed Git version using package manager:
 ```shell
 apt list --installed | grep git
-```
 
 apt-cache policy git
+```
 
+Get more information about available Git versions from your packager manager:
+```shell
 apt-cache madison git
-
+```
 
 
 ```shell
