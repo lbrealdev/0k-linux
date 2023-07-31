@@ -1,4 +1,8 @@
-# Install Arkade - Open Source Marktplace Tools
+# Arkade - Open Source Marktplace Tools
+
+**Arkade** is an amazing tool, see more about it here:
+
+- [arkade - Open Source Marketplace For Developer Tools](https://github.com/alexellis/arkade)
 
 ## Install arkade
 
