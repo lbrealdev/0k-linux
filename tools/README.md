@@ -1,6 +1,6 @@
-# Linux tools
+# Linux Tools
 
-These are those tools you've never heard of :sunglasses:.
+These are those tools you've never heard of :sunglasses:
 
 <!-- TOC -->
 
