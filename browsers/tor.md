@@ -2,17 +2,17 @@
 
 Download `tor` from **Tor Project** page:
 ```shell
-curl -SLfs https://www.torproject.org/dist/torbrowser/13.0/tor-browser-linux-x86_64-13.0.tar.xz -o tor-browser.tar.xz
+curl -SLfs https://www.torproject.org/dist/torbrowser/13.0/tor-browser-linux-x86_64-13.0.tar.xz -o tor-latest.tar.xz
 ```
 
 Once the download is finished, extract the contents of the package:
 ```shell
-tar -xf tor-browser.tar.xz
+tar -xf tor-latest.tar.xz
 ```
 
 Navigate to the extracted directory:
 ```shell
-cd tor-browser/
+cd tor-latest/
 ```
 
 Once inside the directory, run `tor browser`.

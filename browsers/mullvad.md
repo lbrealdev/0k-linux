@@ -2,17 +2,17 @@
 
 Download `mullvad` browser from **Mullvad** page:
 ```shell
-curl -SLfs https://mullvad.net/en/download/browser/linux64/latest -o mullvad-browser.tar.xz
+curl -SLfs https://mullvad.net/en/download/browser/linux64/latest -o mullvad-latest.tar.xz
 ```
 
 Once the download is finished, extract the contents of the package:
 ```shell
-tar -xf mullvad-browser.tar.xz
+tar -xf mullvad-latest.tar.xz
 ```
 
 Navigate to the extracted directory:
 ```shell
-cd mullvad-browser/
+cd mullvad-latest/
 ```
 
 Once inside the directory, run `mullvad browser`.
