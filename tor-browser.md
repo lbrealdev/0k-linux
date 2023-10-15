@@ -7,7 +7,7 @@ curl -SLfs https://www.torproject.org/dist/torbrowser/12.5.1/tor-browser-linux64
 
 Once the download is finished, extract the contents of the package:
 ```shell
-tar -xvf tor-browser.tar.xz
+tar -xf tor-browser.tar.xz
 ```
 
 Navigate to the extracted directory:
