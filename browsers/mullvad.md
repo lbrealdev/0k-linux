@@ -2,7 +2,7 @@
 
 Download `mullvad` browser from **Mullvad** page:
 ```shell
-curl -SLfs https://mullvad.net/pt/download/browser/linux64/latest -o mullvad-browser.tar.xz
+curl -SLfs https://mullvad.net/en/download/browser/linux64/latest -o mullvad-browser.tar.xz
 ```
 
 Once the download is finished, extract the contents of the package:
