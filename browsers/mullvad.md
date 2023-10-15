@@ -1,6 +1,6 @@
 # Mullvad browser
 
-Download `mullvad` browser from the GitHub repository:
+Download `mullvad` browser from **Mullvad** page:
 ```shell
 curl -SLfs https://mullvad.net/pt/download/browser/linux64/latest -o mullvad-browser.tar.xz
 ```
@@ -15,7 +15,7 @@ Navigate to the extracted directory:
 cd mullvad-browser/
 ```
 
-Once inside the directory, run `tor browser`.
+Once inside the directory, run `mullvad browser`.
 ```shell
 ./start-mullvad-browser.desktop
 ```
@@ -24,3 +24,5 @@ Add a Dock / Dash shortcut:
 ```shell
 cp start-mullvad-browser.desktop ~/.local/share/applications/
 ```
+
+**Official page:** https://mullvad.net/en/browser
