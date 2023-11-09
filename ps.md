@@ -15,6 +15,4 @@ ps -efa
 Linux commands
 ```shell
 top -p 31207
-
-ping 8.8.8.8 -c 10
 ```
