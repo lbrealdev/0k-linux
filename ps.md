@@ -1,17 +1,15 @@
 # ps
 
 List process:
-```
+```shell
 ps -auxwf
 ```
 
 List process with grep:
-```
-ps -aux | grep <process_name>
+```shell
+ps -aux | grep "process-name"
 
 ps -efa
-
-
 ```
 
 Linux commands
