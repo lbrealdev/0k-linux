@@ -1,5 +1,11 @@
 # yt-dlp
 
+
+Install `yt-dlp` using pip 
+```shell
+pip install yt-dlp
+```
+
 Download from Youtube:
 ```shell
 yt-dlp -f b <youtube-video-url>
@@ -18,4 +24,9 @@ yt-dlp https://www.facebook.com/user.fb/videos/4024873453531941/ --add-header 'c
 Get a list of formats available for download:
 ```shell
 yt-dlp --list-formats <youtube-video-url>
+```
+
+Download all playlists from a YouTube channel:
+```shell
+yt-dlp -o '%(title)s.%(ext)s' -f b --yes-playlist https://www.youtube.com/c/<youtube-channel-name>
 ```
