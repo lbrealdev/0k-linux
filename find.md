@@ -17,7 +17,7 @@ The same command as the previous one, but now using the option to search recursi
 find ./ -print 2>&1 | grep -Rin "<stuff>"
 ```
 
-// to do
+Locate and display detailed information for all files with the '.yml' extension within the `/home/user/` directory.
 ```shell
-find /home/user/ -name main.yml -ls
+find /home/user/ -name "*.yml" -ls
 ```
