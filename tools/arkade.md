@@ -13,19 +13,9 @@ curl -sLS https://get.arkade.dev | sudo sh
 
 ## Update arkade
 
-Delete binary in /usr/local/bin:
+Update arkade binary version:
 ```shell
-rm -rf /usr/local/bin/arkade
-```
-
-Remove cached versions of tools:
-```shell
-rm -rf $HOME/.arkade
-```
-
-Install arkade again, run:
-```shell
-curl -SLfs https://get.arkade.dev | sudo sh
+arkade update
 ```
 
 ## Install go with arkade:
