@@ -1,4 +1,5 @@
 # ssh
 
-// to do
-
+```shell
+eval `ssh-agent -s`
+```
