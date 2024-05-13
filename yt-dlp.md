@@ -6,10 +6,7 @@ Install `yt-dlp` using pip
 pip install yt-dlp
 ```
 
-Download from Youtube:
-```shell
-yt-dlp -f b <youtube-video-url>
-```
+## Facebook
 
 Download from Facebook:
 ```shell
@@ -30,6 +27,8 @@ python3 -m pip install secretstorage
 
 - https://webapps.stackexchange.com/a/92332
 
+
+## YouTube
 
 Get a list of formats available for download:
 ```shell
