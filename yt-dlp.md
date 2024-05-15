@@ -42,7 +42,7 @@ yt-dlp -o '%(title)s-%(id)s.%(ext)s' -f b --yes-playlist https://www.youtube.com
 
 Download the video with the best quality and description:
 ```shell
-yt-dlp -o '%(title)s-%(id)s.%(ext)s' --write-description -f b <youtube-video-url>
+yt-dlp -o '%(title)s-%(id)s.%(ext)s' --write-description --embed-metadata -f b <youtube-video-url>
 ```
 
 List all videos from YouTube channel:
