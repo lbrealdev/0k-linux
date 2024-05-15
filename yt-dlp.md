@@ -45,4 +45,16 @@ Download the video with the best quality and description:
 yt-dlp -o '%(title)s-%(id)s.%(ext)s' --write-description -f b <youtube-video-url>
 ```
 
+List all videos from YouTube channel:
+```shell
+yt-dlp --print "%(title)s-%(id)s" https://www.youtube.com/@<uploader_id> > youtube-videos-list.txt
+```
+
+## Twitter
+
+Download video from Twitter:
+```shell
+yt-dlp <twitter-video-address>
+```
+
 **Source**: https://github.com/yt-dlp/yt-dlp
