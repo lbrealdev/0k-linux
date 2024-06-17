@@ -33,7 +33,7 @@ gpg --list-secret-keys --keyid-format=long
 ```
 
 ```shell
-gpg --status-fd=2 -bsau <gpg-key-id>
+gpg --status-fd=2 -bsau <key-id>
 ```
 
 Get fingerprint from public key:
@@ -41,3 +41,6 @@ Get fingerprint from public key:
 gpg --fingerprint <user-id>
 ```
 
+Source:
+
+- https://www.linuxbabe.com/security/gpg-guide-public-key-management
