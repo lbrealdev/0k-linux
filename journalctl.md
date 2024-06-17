@@ -14,3 +14,8 @@ List all boots made:
 ```shell
 journalctl --list-boots
 ```
+
+Get logs from the last boot:
+```shell
+journalctl --boot
+```
