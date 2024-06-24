@@ -1,5 +1,9 @@
 # tar
 
+tar - an archiving utility
+
+## Usage
+
 Extracting tar files `tar.xz` `tar.gz`:
 ```shell
 # verbose

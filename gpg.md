@@ -1,5 +1,9 @@
 # GPG - GnuPG
 
+gpg - OpenPGP encryption and signing tool
+
+## Usage
+
 Get gpg version:
 ```shell
 gpg --version

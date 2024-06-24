@@ -1,5 +1,9 @@
  # systemd
 
+systemd, init - systemd system and service manager
+
+## Usage
+
 List all services:
 ```shell
 systemctl list-units --type service --all

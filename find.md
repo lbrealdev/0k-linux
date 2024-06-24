@@ -1,6 +1,8 @@
 # find
 
-### Use
+find - search for files in a directory hierarchy
+
+## Usage
 
 Use find to search in `/var/local/*` without entering subdirectories, looking only for directories that were modified in the last 7 days, and print their paths:
 ```shell

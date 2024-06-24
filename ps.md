@@ -1,5 +1,9 @@
 # ps
 
+ps - report a snapshot of the current processes.
+
+## Usage
+
 List process:
 ```shell
 ps -auxwf
@@ -16,3 +20,4 @@ Linux commands
 ```shell
 top -p 31207
 ```
+
