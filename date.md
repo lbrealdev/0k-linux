@@ -1,5 +1,9 @@
 # date
 
+date - print or set the system date and time
+
+## Usage
+
 ```shell
 date +%s
 ```

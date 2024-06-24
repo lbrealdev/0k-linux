@@ -1,6 +1,6 @@
 # git
 
-### Use
+## Usage
 
 Check Git version:
 ```shell

@@ -1,5 +1,9 @@
 # sed
 
+sed - stream editor for filtering and transforming text
+
+## Usage
+
 Replace `1Gi` with `10Gi` only lines that contain __storage__:
 ```shell
 sed -i '/storage/ s/1Gi/10Gi/g' az-pvc.yml

@@ -1,5 +1,9 @@
 # journalctl
 
+journalctl - Query the systemd journal
+
+## Usage
+
 Query the journal with message explanations in immediately jump to the end in the pager:
 ```shell
 journalctl -xe
