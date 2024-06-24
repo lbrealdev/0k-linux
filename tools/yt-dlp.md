@@ -41,7 +41,7 @@ yt-dlp -o '%(title)s-%(id)s.%(ext)s' --write-description --embed-metadata -f b <
 
 List all videos from YouTube channel:
 ```shell
-yt-dlp --print "%(title)s-%(id)s" https://www.youtube.com/@<uploader_id> > youtube-videos-list.txt
+yt-dlp --print "%(title)s-%(id)s" https://www.youtube.com/@<uploader_id> > youtube-videos-list-$(date +%Y%m%d_%H%M%S).txt
 ```
 
 ## Twitter
