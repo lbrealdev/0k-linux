@@ -39,3 +39,8 @@ Show service unit file:
 ```shell
  systemctl cat sshd.service
 ```
+
+Source:
+
+- [Systemd's web site](https://systemd.io/)
+- [Systemd repository](https://github.com/systemd/systemd)
