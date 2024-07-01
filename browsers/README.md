@@ -1,4 +1,4 @@
-# Linux browsers
+# Linux Browsers
 
 <!-- TOC -->
 
