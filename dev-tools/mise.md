@@ -1,9 +1,9 @@
-# Mise
+# mise
 
 ### Usage
 
 ```shell
-curl -sSL https://github.com/jdx/mise/releases/download/v2024.6.6/mise-v2024.6.6-linux-x64 > /usr/local/bin/mise
+curl -sSL "https://github.com/jdx/mise/releases/download/v2024.6.6/mise-v2024.6.6-linux-x64" > /usr/local/bin/mise
 
 chmod +x /usr/local/bin/mise
 
@@ -23,3 +23,9 @@ mise ls
 
 mise uninstall npm:@mermaid-js/mermaid-cli
 ```
+
+
+### Source
+
+- https://github.com/jdx/mise/
+- https://mise.jdx.dev/
