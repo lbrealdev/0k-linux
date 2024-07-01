@@ -24,7 +24,6 @@ mise ls
 mise uninstall npm:@mermaid-js/mermaid-cli
 ```
 
-
 ### Source
 
 - https://github.com/jdx/mise/

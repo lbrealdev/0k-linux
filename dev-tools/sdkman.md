@@ -27,4 +27,4 @@ sdk install maven
 ### Source
 
 - https://sdkman.io
-
+- https://github.com/sdkman/sdkman-cli
