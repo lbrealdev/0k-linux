@@ -9,7 +9,7 @@ chmod +x /usr/local/bin/mise
 
 echo 'eval "$(mise activate bash)"' >> ~/.bashrc
 
-export PATH="$HOME/.local/share/mise/shims:$PATH"
+echo 'export PATH=$HOME/.local/share/mise/shims:$PATH' >> ~/.bashrc
 ```
 
 ```shell
