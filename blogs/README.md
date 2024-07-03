@@ -9,4 +9,4 @@
 ## Tecmint
 
 - https://www.tecmint.com/make-file-directory-undeletable-immutable-in-linux/
-
+- https://www.tecmint.com/remove-systemd-services-on-linux/
