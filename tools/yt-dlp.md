@@ -5,6 +5,16 @@ Install `yt-dlp` using pip
 pip install yt-dlp
 ```
 
+Update `yt-dlp`:
+```shell
+yt-dlp -U
+```
+
+Update `yt-dlp` for pip installations:
+```shell
+python -m pip install yt-dlp -U
+```
+
 ## Facebook
 
 Download from Facebook loading cookies from chrome browser:
