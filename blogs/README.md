@@ -18,6 +18,10 @@
 
 - https://linuxhandbook.com/why-zsh/
 
+## It's FOSS
+
+- https://itsfoss.com/bash-arrays/
+
 ## The Linux Kernel
 
 - https://linux-kernel-labs.github.io/refs/heads/master/index.html
