@@ -60,3 +60,7 @@ Show service unit file:
 ### Systemd Blogs
 
 - [Unlocking LUKS2 volumes with TPM2, FIDO2, PKCS#11 Security Hardware on systemd 248](https://0pointer.net/blog/unlocking-luks2-volumes-with-tpm2-fido2-pkcs11-security-hardware-on-systemd-248.html)
+
+**If you wonder why many people don't like systemd, maybe this link will help you.**
+
+- https://nosystemd.org/
