@@ -64,3 +64,4 @@ Show service unit file:
 **If you wonder why many people don't like systemd, maybe this link will help you.**
 
 - https://nosystemd.org/
+- https://itsfoss.com/systemd-init/
