@@ -13,6 +13,7 @@
 - https://www.tecmint.com/remove-systemd-services-on-linux/
 - https://www.tecmint.com/dpkg-command-examples/
 - https://www.tecmint.com/networkctl-check-linux-network-interface-status/
+- https://www.tecmint.com/disable-unwanted-services-linux/
 
 ## Linux Handbook
 
@@ -38,3 +39,5 @@
 
 - https://nunosempere.com/blog/2023/03/27/soothing-software/
 - https://www.phoronix.com/news/Linux-Faster-Boot-One-Line-ACPI
+- https://blog.sanctum.geek.nz/cron-best-practices/
+- https://noratrieb.dev/blog/posts/ssh-security/
