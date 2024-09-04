@@ -30,6 +30,7 @@
 ## Learn By Example
 
 - https://learnbyexample.github.io/mini/linux-date-command-examples/
+- https://learnbyexample.github.io/mini/cli-text-editing-with-ed/
 
 ## Networking
 
