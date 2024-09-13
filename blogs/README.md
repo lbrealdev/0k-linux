@@ -22,6 +22,7 @@
 ## It's FOSS
 
 - https://itsfoss.com/bash-arrays/
+- https://itsfoss.com/virtualization-software-linux/
 
 ## The Linux Kernel
 
