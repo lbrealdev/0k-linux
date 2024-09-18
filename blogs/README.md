@@ -23,6 +23,7 @@
 
 - https://itsfoss.com/bash-arrays/
 - https://itsfoss.com/virtualization-software-linux/
+- https://itsfoss.com/virtualbox-change-vm-config/
 
 ## The Linux Kernel
 
