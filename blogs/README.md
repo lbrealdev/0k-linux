@@ -14,6 +14,7 @@
 - https://www.tecmint.com/dpkg-command-examples/
 - https://www.tecmint.com/networkctl-check-linux-network-interface-status/
 - https://www.tecmint.com/disable-unwanted-services-linux/
+- https://www.tecmint.com/linux-server-hardening-security-tips/
 
 ## Linux Handbook
 
