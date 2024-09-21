@@ -14,6 +14,7 @@
 - https://www.tecmint.com/dpkg-command-examples/
 - https://www.tecmint.com/networkctl-check-linux-network-interface-status/
 - https://www.tecmint.com/disable-unwanted-services-linux/
+- https://www.tecmint.com/linux-server-hardening-security-tips/
 
 ## Linux Handbook
 
@@ -22,6 +23,8 @@
 ## It's FOSS
 
 - https://itsfoss.com/bash-arrays/
+- https://itsfoss.com/virtualization-software-linux/
+- https://itsfoss.com/virtualbox-change-vm-config/
 
 ## The Linux Kernel
 
@@ -30,6 +33,7 @@
 ## Learn By Example
 
 - https://learnbyexample.github.io/mini/linux-date-command-examples/
+- https://learnbyexample.github.io/mini/cli-text-editing-with-ed/
 
 ## Networking
 
