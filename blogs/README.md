@@ -25,6 +25,7 @@
 - https://itsfoss.com/bash-arrays/
 - https://itsfoss.com/virtualization-software-linux/
 - https://itsfoss.com/virtualbox-change-vm-config/
+- https://itsfoss.com/increase-disk-size-virtualbox/
 
 ## The Linux Kernel
 
