@@ -12,3 +12,6 @@ Linux guide!
 ### Terminal Apps
 
 - [TerminalApps](https://terminal-apps.dev/)
+- [Terminal Trove](https://terminaltrove.com/)
+    - [Terminal Trove - Twitter](https://x.com/terminaltrove)
+  
