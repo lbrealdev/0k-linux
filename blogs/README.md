@@ -15,6 +15,7 @@
 - https://www.tecmint.com/networkctl-check-linux-network-interface-status/
 - https://www.tecmint.com/disable-unwanted-services-linux/
 - https://www.tecmint.com/linux-server-hardening-security-tips/
+- https://www.tecmint.com/how-to-hack-your-own-linux-system/
 
 ## Linux Handbook
 
@@ -26,6 +27,7 @@
 - https://itsfoss.com/virtualization-software-linux/
 - https://itsfoss.com/virtualbox-change-vm-config/
 - https://itsfoss.com/increase-disk-size-virtualbox/
+- https://itsfoss.com/customize-linux-terminal/#tip-4-tweaking-the-bash-prompt-variables
 
 ## The Linux Kernel
 
@@ -36,9 +38,17 @@
 - https://learnbyexample.github.io/mini/linux-date-command-examples/
 - https://learnbyexample.github.io/mini/cli-text-editing-with-ed/
 
+## OpenSource.com
+
+- [How to change the color of your Linux terminal](https://opensource.com/article/19/9/linux-terminal-colors)
+
 ## Networking
 
 - https://ntk148v.github.io/posts/linux-network-performance-ultimate-guide/
+
+## Linux RCE
+
+- [Attacking UNIX Systems via CUPS, Part I](https://www.evilsocket.net/2024/09/26/Attacking-UNIX-systems-via-CUPS-Part-I/)
 
 ## About linux
 
@@ -46,3 +56,9 @@
 - https://www.phoronix.com/news/Linux-Faster-Boot-One-Line-ACPI
 - https://blog.sanctum.geek.nz/cron-best-practices/
 - https://noratrieb.dev/blog/posts/ssh-security/
+- http://redsymbol.net/articles/bash-exit-traps/
+- http://redsymbol.net/articles/unofficial-bash-strict-mode/
+
+## Linux News
+
+- https://lwn.net/
