@@ -14,4 +14,8 @@ Linux guide!
 - [TerminalApps](https://terminal-apps.dev/)
 - [Terminal Trove](https://terminaltrove.com/)
     - [Terminal Trove - Twitter](https://x.com/terminaltrove)
-  
+
+### Linux Cheat Sheet
+
+- [SpeedSheet - Linux Sheet](https://speedsheet.io/s/linux)
+- [SpeedSheet - Bash Sheet](https://speedsheet.io/s/bash)

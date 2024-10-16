@@ -99,7 +99,9 @@ Build with the name of the repository and with the v1.0 tag
 docker build -t datteops/swagger:v1.0 .
 ```
 
-### docker images
+### docker image
+
+- [source](https://docs.docker.com/reference/cli/docker/image/)
 
 List images:
 ```shell
@@ -189,3 +191,7 @@ Display a live stream of containers resource usage statistics:
 ```shell
 docker stats
 ```
+
+### Repositories
+
+- https://github.com/GoogleContainerTools/distroless
