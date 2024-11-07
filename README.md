@@ -19,3 +19,7 @@ Linux guide!
 
 - [SpeedSheet - Linux Sheet](https://speedsheet.io/s/linux)
 - [SpeedSheet - Bash Sheet](https://speedsheet.io/s/bash)
+
+### Linux Packages
+
+- https://pkgs.org
