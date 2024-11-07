@@ -1,4 +1,6 @@
-# Linux - Format USB
+# Linux USB
+
+## Format USB on Linux
 
 ### Usage
 
@@ -28,7 +30,24 @@ umount /dev/sdc1
 
 Format the USB by running this command:
 ```shell
-LABEL_NAME="<usb-name-here>"
+LABEL_NAME="<usb-name>"
 
 mkfs.vfat -I -F 32 -n $LABEL_NAME /dev/sdc -v
+```
+
+### Other Linux commands to detect USB
+
+List USB devices:
+```shell
+lsusb
+```
+
+Print USB device details:
+```shell
+usb-devices
+```
+
+Print devices USB filtering by version:
+```shell
+usb-devices | grep -i -E "Product=USB DISK [0-9]+\.[0-9]" -B4 -A5
 ```
