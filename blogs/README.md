@@ -55,9 +55,10 @@
 - https://nunosempere.com/blog/2023/03/27/soothing-software/
 - https://www.phoronix.com/news/Linux-Faster-Boot-One-Line-ACPI
 - https://blog.sanctum.geek.nz/cron-best-practices/
-- https://noratrieb.dev/blog/posts/ssh-security/
 - http://redsymbol.net/articles/bash-exit-traps/
 - http://redsymbol.net/articles/unofficial-bash-strict-mode/
+- https://smallstep.com/blog/command-line-secrets/
+- https://www.freecodecamp.org/news/securely-erasing-a-disk-and-file-using-linux-command-shred/
 
 ## Linux News
 
