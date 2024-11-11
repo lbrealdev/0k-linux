@@ -195,3 +195,7 @@ docker stats
 ### Repositories
 
 - https://github.com/GoogleContainerTools/distroless
+
+### Registries
+
+- https://images.chainguard.dev/
