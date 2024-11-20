@@ -199,3 +199,7 @@ docker stats
 ### Registries
 
 - https://images.chainguard.dev/
+
+### Docker Guides, Blogs and Tutorials
+
+- [Dockerdocs - Building best practices](https://docs.docker.com/build/building/best-practices/)
