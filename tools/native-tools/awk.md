@@ -1,5 +1,6 @@
 # awk
 
+gawk - pattern scanning and processing language
 
 ### AWK series by Tecmint
 
