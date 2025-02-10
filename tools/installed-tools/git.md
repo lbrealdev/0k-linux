@@ -1,5 +1,7 @@
 # git
 
+git - the stupid content tracker
+
 ## Usage
 
 Check Git version:
