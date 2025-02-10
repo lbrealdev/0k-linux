@@ -28,6 +28,7 @@
 - https://itsfoss.com/virtualbox-change-vm-config/
 - https://itsfoss.com/increase-disk-size-virtualbox/
 - https://itsfoss.com/customize-linux-terminal/#tip-4-tweaking-the-bash-prompt-variables
+- https://itsfoss.com/lvm-guide/
 
 ## The Linux Kernel
 
@@ -37,6 +38,7 @@
 
 - https://learnbyexample.github.io/mini/linux-date-command-examples/
 - https://learnbyexample.github.io/mini/cli-text-editing-with-ed/
+- https://learnbyexample.github.io/coloring-matched-portions-grep-sed-awk/
 
 ## OpenSource.com
 
