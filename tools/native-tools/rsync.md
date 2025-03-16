@@ -1,5 +1,7 @@
 # rsync
 
+rsync - a fast, versatile, remote (and local) file-copying tool
+
 ### Sources
 
 - https://rsync.samba.org/
@@ -7,8 +9,6 @@
 - https://terminaltrove.com/rsync/
 
 ### Usage
-
-rsync - a fast, versatile, remote (and local) file-copying tool
 
 Copy file from local to remote host:
 ```shell
