@@ -1,8 +1,13 @@
- # systemd
+# systemd
 
 systemd, init - systemd system and service manager
 
-## Usage
+### Source
+
+- [Systemd's web site](https://systemd.io/)
+- [Systemd repository](https://github.com/systemd/systemd)
+
+### Usage
 
 List all services:
 ```shell
@@ -18,7 +23,7 @@ List all targets:
 ```shell
  systemctl list-units --type target --all
 ```
- 
+
 List unit file and show state:
 ```shell
  systemctl list-unit-files --full
@@ -43,11 +48,6 @@ Show service unit file:
 ```shell
  systemctl cat sshd.service
 ```
-
-### Source
-
-- [Systemd's web site](https://systemd.io/)
-- [Systemd repository](https://github.com/systemd/systemd)
 
 ### Systemd articles
 

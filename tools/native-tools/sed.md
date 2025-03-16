@@ -23,4 +23,3 @@ Comment line 3 with # and add `nameserver ip` to the last line in resolv.conf fi
 ```shell
 sed -i -e '3s/^/# /' -e '$ a nameserver 180.100.250.01' /etc/resolv.conf
 ```
-

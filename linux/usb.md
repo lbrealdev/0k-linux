@@ -49,5 +49,5 @@ usb-devices
 
 Print devices USB filtering by version:
 ```shell
-usb-devices | grep -i -E "Product=USB DISK [0-9]+\.[0-9]" -B4 -A5
+usb-devices | grep -iE "Product=USB DISK [0-9]+\.[0-9]" -B4 -A5
 ```

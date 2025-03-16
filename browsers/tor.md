@@ -1,5 +1,12 @@
 # Tor browser
 
+### Sources
+
+- [Tor](https://www.torproject.org/)
+- [Tor Debian Repository](https://support.torproject.org/apt/)
+- [Running Tor Browser](https://tb-manual.torproject.org/running-tor-browser/)
+- [Installation](https://tb-manual.torproject.org/installation/)
+
 ### Install and verify signature
 
 Download `tor` from **Tor Project** page:
@@ -42,13 +49,3 @@ Once inside the directory, run `tor browser`.
 ```shell
 ./start-tor-browser.desktop
 ```
-
-## Sources:
-
-- https://www.torproject.org/
-
-
-- [Tor Debian Repository](https://support.torproject.org/apt/)
-- [Running Tor Browser](https://tb-manual.torproject.org/running-tor-browser/)
-- [Installation](https://tb-manual.torproject.org/installation/)
-

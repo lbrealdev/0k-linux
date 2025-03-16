@@ -1,6 +1,5 @@
 # Linux Disk
 
-
 ### Linux disk error
 
 ```shell
