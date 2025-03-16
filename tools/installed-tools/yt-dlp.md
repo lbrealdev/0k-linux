@@ -33,7 +33,7 @@ If you get any errors when downloading with `--cookies-from-browser`, you should
 python3 -m pip install secretstorage
 ```
 
-**NOTE:** See more in this [stackexchange](https://webapps.stackexchange.com/a/92332) answer.
+**NOTE:** See more in this answer [Stack Exchange](https://webapps.stackexchange.com/a/92332).
 
 ### Download from YouTube
 
