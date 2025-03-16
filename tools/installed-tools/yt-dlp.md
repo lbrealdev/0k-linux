@@ -1,10 +1,12 @@
 # yt-dlp
 
-### Source
+### Sources
 
 - https://github.com/yt-dlp/yt-dlp
 
-Install `yt-dlp` using pip
+### Install
+
+Install `yt-dlp` using pip:
 ```shell
 pip install yt-dlp
 ```
@@ -19,7 +21,7 @@ Update `yt-dlp` for pip installations:
 python -m pip install yt-dlp -U
 ```
 
-## Facebook
+### Download from Facebook
 
 Download from Facebook loading cookies from chrome browser:
 ```shell
@@ -36,7 +38,7 @@ python3 -m pip install secretstorage
 - https://webapps.stackexchange.com/a/92332
 
 
-## YouTube
+### Download from YouTube
 
 Get a list of formats available for download:
 ```shell
@@ -58,13 +60,13 @@ List all videos from YouTube channel:
 yt-dlp --print "%(title)s-%(id)s" https://www.youtube.com/@<uploader_id> > youtube-videos-list-$(date +%Y%m%d_%H%M%S).txt
 ```
 
-## Twitter
+## Download from Twitter
 
 Download video from Twitter:
 ```shell
 yt-dlp <twitter-video-address>
 ```
 
-### Related content
+### Related links
 
 - https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-YouTube-DL-Scripts-Collection
