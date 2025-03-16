@@ -23,7 +23,7 @@ python -m pip install yt-dlp -U
 
 ### Download from Facebook
 
-Download from Facebook loading cookies from chrome browser:
+Download from Facebook loading cookies from your browser:
 ```shell
 yt-dlp https://www.facebook.com/watch/?v=<facebook-video-id> --cookies-from-browser chrome
 ```
@@ -33,10 +33,7 @@ If you get any errors when downloading with `--cookies-from-browser`, you should
 python3 -m pip install secretstorage
 ```
 
-**NOTE:** Follow the steps in the answer from `stackexchange webapps`.
-
-- https://webapps.stackexchange.com/a/92332
-
+**NOTE:** See more in this [stackexchange](https://webapps.stackexchange.com/a/92332) answer.
 
 ### Download from YouTube
 
