@@ -4,18 +4,17 @@ tar - an archiving utility
 
 ## Usage
 
-Extracting tar files `tar.xz` `tar.gz`:
+Extracting tar files, e.g: `tar.xz`, `tar.gz`:
 ```shell
-# verbose
-
-tar -xvf file.tar.gz
-
-# without verbose
-
 tar -xf file.tar.xz
 ```
 
-List the content of tar files:
+Extraction files with verbose:
+```shell
+tar -xvf file.tar.gz
+```
+
+List the content of the tar file:
 ```shell
 tar -tvf file.tar.xz
 ```

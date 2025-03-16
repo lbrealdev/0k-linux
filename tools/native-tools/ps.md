@@ -20,4 +20,3 @@ Linux commands
 ```shell
 top -p 31207
 ```
-

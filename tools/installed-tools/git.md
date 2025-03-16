@@ -71,7 +71,7 @@ curl -SLfs https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.39.2.tar.g
 
 curl -SLfs https://github.com/git/git/archive/refs/tags/v2.39.3.tar.gz -o git-2.39.3.tar.gz
 
- 
+
 tar -zxf git-2.39.3.tar.gz
 
 
@@ -89,4 +89,3 @@ make all doc info
 
 sudo make install install-doc install-html install-info
 ```
-

@@ -4,7 +4,7 @@
 
 - https://github.com/yt-dlp/yt-dlp
 
-Install `yt-dlp` using pip 
+Install `yt-dlp` using pip
 ```shell
 pip install yt-dlp
 ```
@@ -68,4 +68,3 @@ yt-dlp <twitter-video-address>
 ### Related content
 
 - https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-YouTube-DL-Scripts-Collection
-
