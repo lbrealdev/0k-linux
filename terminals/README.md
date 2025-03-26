@@ -2,11 +2,11 @@
 
 ## Terminals
 
-- Alacritty - [Web](https://alacritty.org/)/[GitHub](https://github.com/alacritty/alacritty)
-- Ghostty - [Web](https://ghostty.org/)/[GitHub](https://github.com/ghostty-org/ghostty)
-- Kitty - [Web](https://sw.kovidgoyal.net/kitty/)/[GitHub](https://github.com/kovidgoyal/kitty)
-- Tmux - [Web]()/[GitHub](https://github.com/tmux/tmux)
-- Zellij - [Web](https://zellij.dev/)/[GitHub](https://github.com/zellij-org/zellij)
+- [alacritty](https://github.com/lbrealdev/0k-linux/blob/main/terminals/alacritty.md)
+- [ghostty](https://github.com/lbrealdev/0k-linux/blob/main/terminals/ghostty.md)
+- [kitty](https://github.com/lbrealdev/0k-linux/blob/main/terminals/kitty.md)
+- [tmux](https://github.com/lbrealdev/0k-linux/blob/main/terminals/tmux.md)
+- [zellij](https://github.com/lbrealdev/0k-linux/blob/main/terminals/zellij.md)
 
 ## Customize terminal tools
 
