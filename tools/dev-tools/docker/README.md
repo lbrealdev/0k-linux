@@ -63,6 +63,7 @@ curl -fsSL https://get.docker.com  | sudo sh
 - [docker ps](#docker-ps)
 - [docker start](#docker-start)
 - [docker stop](#docker-stop)
+- [docker stats](#docker-stats)
 
 ### docker info
 
@@ -97,7 +98,7 @@ Build with the name of the repository and with the v1.0 tag
 docker build -t datteops/swagger:v1.0 .
 ```
 
-### docker image
+### docker images
 
 - [source](https://docs.docker.com/reference/cli/docker/image/)
 
@@ -181,6 +182,15 @@ docker rm service-swagger
 Remove container by ID:
 ```shell
 docker rm 662c38240042
+```
+
+### docker rmi
+
+Remove one or more images
+
+Remove image by ID:
+```shell
+docker rmi 44f22c911346
 ```
 
 ### docker stats
