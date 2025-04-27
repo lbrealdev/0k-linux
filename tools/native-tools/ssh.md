@@ -8,6 +8,15 @@ ssh — OpenSSH SSH client (remote login program)
 eval `ssh-agent -s`
 ```
 
+Search **openssh** package using `apt`:
+```shell
+apt search openssh | grep -E 'openssh-client|openssh-server'
+```
+
+```shell
+netstat -tunapl | grep 22
+```
+
 ## Blogs
 
 - [Visual guide to SSH tunneling and port forwarding](https://ittavern.com/visual-guide-to-ssh-tunneling-and-port-forwarding/)
