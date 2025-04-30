@@ -8,7 +8,7 @@ rsync - a fast, versatile, remote (and local) file-copying tool
 - https://github.com/RsyncProject/rsync
 - https://terminaltrove.com/rsync/
 
-### Usage
+## Usage
 
 Copy file from local to remote host:
 ```shell

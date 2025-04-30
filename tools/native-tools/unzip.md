@@ -2,6 +2,8 @@
 
 unzip - list, test and extract compressed files in a ZIP archive
 
+## Usage
+
 Extract zip file in quiet mode:
 ```shell
 unzip -q file.zip

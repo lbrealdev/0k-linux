@@ -2,14 +2,12 @@
 
 ## Terminals
 
-- [kitty](https://sw.kovidgoyal.net/kitty/)
-    - [GitHub repository](https://github.com/kovidgoyal/kitty)
-- [alacritty](https://alacritty.org/)
-    - [GitHub repository](https://github.com/alacritty/alacritty)
-- [tmux](https://github.com/tmux/tmux)
-- [zellij](https://zellij.dev/)
+- [alacritty](https://github.com/lbrealdev/0k-linux/blob/main/terminals/alacritty.md)
+- [ghostty](https://github.com/lbrealdev/0k-linux/blob/main/terminals/ghostty.md)
+- [kitty](https://github.com/lbrealdev/0k-linux/blob/main/terminals/kitty.md)
+- [tmux](https://github.com/lbrealdev/0k-linux/blob/main/terminals/tmux.md)
+- [zellij](https://github.com/lbrealdev/0k-linux/blob/main/terminals/zellij.md)
 
-
-# Customize terminal tools
+## Customize terminal tools
 
 - Gogh - [Web](https://gogh-co.github.io/Gogh/)/[GitHub](https://github.com/Gogh-Co/Gogh)

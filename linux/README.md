@@ -10,3 +10,10 @@
 
 - [Distroware Archive - Linux Distributions Timeline](https://distroware.gitlab.io/)
   - [Distroware Archive - GitHub](https://github.com/FabioLolix/LinuxTimeline)
+
+### Related resources
+
+- [Unit-testing shell scripts and tools with shtk](https://jmmv.dev/2023/10/unit-testing-with-shtk.html)
+- [bats-core](https://github.com/bats-core/bats-core)
+- [bats-file](https://github.com/bats-core/bats-file)
+- [bats-assert](https://github.com/bats-core/bats-assert)

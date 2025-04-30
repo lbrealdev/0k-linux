@@ -20,6 +20,7 @@
 ## Linux Handbook
 
 - https://linuxhandbook.com/why-zsh/
+- https://linuxhandbook.com/ssh-config-file/
 
 ## It's FOSS
 

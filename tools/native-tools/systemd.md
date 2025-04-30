@@ -7,7 +7,7 @@ systemd, init - systemd system and service manager
 - [Systemd's web site](https://systemd.io/)
 - [Systemd repository](https://github.com/systemd/systemd)
 
-### Usage
+## Usage
 
 List all services:
 ```shell

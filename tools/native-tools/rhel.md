@@ -16,6 +16,7 @@ subscription-manager list
 ```
 
 #### Repos
+
 List the repositories which this system is entitled to use
 
 List all known repositories for this system:
@@ -40,10 +41,13 @@ subscription-manager repos --disable=REPOID
 ```
 
 #### YUM
+
 ```shell
 yum repolist
 ```
+
 #### RHSM configuration
+
 ```shell
 cat /etc/rhsm/rhsm.conf
 ```

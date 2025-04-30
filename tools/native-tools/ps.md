@@ -9,14 +9,11 @@ List process:
 ps -auxwf
 ```
 
-List process with grep:
+List processes filtering by a concrete process using grep:
 ```shell
-ps -aux | grep "process-name"
-
-ps -efa
+ps -aux | grep <process>
 ```
 
-Linux commands
 ```shell
-top -p 31207
+ps -efa
 ```
