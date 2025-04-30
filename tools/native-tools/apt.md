@@ -29,6 +29,10 @@ apt-cache depends <package>
 ```
 
 ```shell
+apt-cache madison <package>
+```
+
+```shell
 apt list --installed
 ```
 
