@@ -81,26 +81,24 @@ docker login
 
 ### docker build
 
-Build an image from a __`Dockerfile`__:
+Build an image from a `Dockerfile`.
 
-Build with tag latest
+Build with tag latest:
 ```shell
 docker build -t swagger .
 ```
 
-Build with the repository name and the latest tag
+Build with the repository name and the latest tag:
 ```shell
 docker build -t datteops/swagger .
 ```
 
-Build with the name of the repository and with the v1.0 tag
+Build with the name of the repository and with the v1.0 tag:
 ```shell
 docker build -t datteops/swagger:v1.0 .
 ```
 
 ### docker images
-
-- [source](https://docs.docker.com/reference/cli/docker/image/)
 
 List images:
 ```shell
@@ -109,14 +107,12 @@ docker images
 
 ### docker run
 
-Run a command in a new container:
+Run a new container:
 ```shell
 docker run -d -p 8080:8080 --name service-swagger datteops/swagger:v1.0
 ```
 
 ### docker ps
-
-_List containers_
 
 List only containers running:
 ```shell
@@ -130,9 +126,7 @@ docker ps -a
 
 ### docker stop
 
-Stop one or more running containers
-
-Stop with container name
+Stop with container name:
 ```shell
 docker stop service-swagger
 ```
@@ -144,9 +138,7 @@ docker stop 52c2d69953a9
 
 ### docker start
 
-Start one or more stopped containers.
-
-Start with container nome:
+Start with container name:
 ```shell
 docker start service-swagger
 ```
@@ -157,8 +149,6 @@ docker start 52c2d69953a9
 ```
 
 ### docker logs
-
-Fetch the logs of a container
 
 Get logs with container name:
 ```shell
@@ -172,8 +162,6 @@ docker logs 52c2d69953a9
 
 ### docker rm
 
-Remove one or more containers
-
 Remove container by name:
 ```shell
 docker rm service-swagger
@@ -186,8 +174,6 @@ docker rm 662c38240042
 
 ### docker rmi
 
-Remove one or more images
-
 Remove image by ID:
 ```shell
 docker rmi 44f22c911346
@@ -198,6 +184,18 @@ docker rmi 44f22c911346
 Display a live stream of containers resource usage statistics:
 ```shell
 docker stats
+```
+
+### docker system
+
+Check docker disk usage:
+```shell
+docker system df
+```
+
+Remove docker unused data:
+```shell
+docker system prune -a --volumes -f
 ```
 
 ### Repositories
