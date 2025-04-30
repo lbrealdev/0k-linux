@@ -45,6 +45,6 @@ Get fingerprint from public key:
 gpg --fingerprint <user-id>
 ```
 
-Source:
+## Related links
 
 - https://www.linuxbabe.com/security/gpg-guide-public-key-management

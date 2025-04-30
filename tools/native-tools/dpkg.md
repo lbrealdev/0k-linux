@@ -2,7 +2,7 @@
 
 dpkg - package manager for Debian
 
-### Usage
+## Usage
 
 Configure a package which has been unpacked but not yet configured:
 ```shell

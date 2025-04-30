@@ -17,7 +17,7 @@ apt search openssh | grep -E 'openssh-client|openssh-server'
 netstat -tunapl | grep 22
 ```
 
-## Blogs
+## Related links
 
 - [Visual guide to SSH tunneling and port forwarding](https://ittavern.com/visual-guide-to-ssh-tunneling-and-port-forwarding/)
 - [ssh-audit Primer - Audit your SSH Server](https://ittavern.com/ssh-audit-primer-audit-your-ssh-server/)
