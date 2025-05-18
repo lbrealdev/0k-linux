@@ -6,6 +6,7 @@
 - [learnbyexample](https://learnbyexample.github.io/)
 - [packman](https://packman.io/posts/)
 - [samhsmith](https://samhsmith.com/)
+- [hijos de init](https://hijosdeinit.gitlab.io/)
 
 ## Tecmint
 

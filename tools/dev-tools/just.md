@@ -1,6 +1,23 @@
 # Just
 
-// to do
+- https://just.systems/
+- https://github.com/casey/just
+
+## Installation
+
+```shell
+curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | sudo bash -s -- --to /usr/local/bin
+```
+
+## Usage
+
+```shell
+just --version
+```
+
+```shell
+just --list
+```
 
 ```shell
 just --unstable --fmt --check
@@ -10,3 +27,4 @@ just --unstable --fmt --check
 
 - [Using the just Task Runner](https://www.stuartellis.name/articles/just-task-runner/)
 - [Just use just](https://toniogela.dev/just/)
+- [Justfile Cheat Sheet by linux_china](https://cheatography.com/linux-china/cheat-sheets/justfile/)

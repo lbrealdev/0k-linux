@@ -6,5 +6,25 @@ dpkg - package manager for Debian
 
 Configure a package which has been unpacked but not yet configured:
 ```shell
-dpkg --configure -a
+sudo dpkg --configure -a
+```
+
+```shell
+dpkg -l
+```
+
+```shell
+dpkg-query -W
+```
+
+```shell
+dpkg-query -W <package>
+```
+
+```shell
+dpkg -W --showformat='${Package} ${Version}\n'
+```
+
+```shell
+sudo dpkg -P <package>
 ```
