@@ -13,6 +13,16 @@ ps -aux | grep -E 'VirtualBoxVM|VBox|VirtualBox'
 sudo kill -9 $(ps -aux | grep -E 'VirtualBoxVM|VBox|VirtualBox' | awk '{print $2}' | head -n -1)
 ```
 
+List virtual machines:
+```shell
+VBoxManage list vms
+```
+
+List running virtual machines:
+```shell
+VBoxManage list runningvms
+```
+
 ## Virtual Box Images
 
 - [OSBoxes](https://www.osboxes.org/)

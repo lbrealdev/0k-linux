@@ -63,6 +63,7 @@
 - http://redsymbol.net/articles/unofficial-bash-strict-mode/
 - https://smallstep.com/blog/command-line-secrets/
 - https://www.freecodecamp.org/news/securely-erasing-a-disk-and-file-using-linux-command-shred/
+- https://thediligentdeveloper.com/30-interesting-shell-commands
 
 ## Linux News
 
