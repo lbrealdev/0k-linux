@@ -29,7 +29,7 @@ Use find to search two directories:
 find ./ -type d \( -name "<pattern>" -o -name "<pattern>" \)
 ```
 
-Use find to seach for specific files and move to destination path:
+Use find to search for specific files and move to destination path:
 ```shell
 find . -type f -name "pattern_*" -exec mv "{}" /move/to/path \;
 ```
