@@ -2,11 +2,14 @@
 
 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. It's also open source.
 
-### Source
+## Sources
 
-- https://zed.dev/
-- https://zed.dev/linux
+- Website: https://zed.dev/
 
-### Issues
+### GitHub Issues (Linux)
 
 - https://github.com/zed-industries/zed/issues/16428
+
+### Related links
+
+- https://zed.dev/linux
