@@ -1,5 +1,7 @@
 # mise
 
+mise - dev tools, env vars, task runner
+
 ## Sources
 
 - Website: https://mise.jdx.dev/

@@ -1,6 +1,8 @@
 # sdkman
 
-### Sources
+sdkman - The Software Development Kit Manager
+
+## Sources
 
 - Website: https://sdkman.io
 - GitHub Repository: https://github.com/sdkman/sdkman-cli
