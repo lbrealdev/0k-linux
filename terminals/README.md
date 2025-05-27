@@ -11,3 +11,7 @@
 ## Customize terminal tools
 
 - Gogh - [Web](https://gogh-co.github.io/Gogh/)/[GitHub](https://github.com/Gogh-Co/Gogh)
+
+## Related links
+
+- [Give Your Linux Terminal A Stunning Makeover](https://www.youtube.com/watch?v=ffmm80_Cii4)

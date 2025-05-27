@@ -32,3 +32,8 @@ date -u '+%Y-%m-%d %H:%M:%S'
 ```shell
 date '+%Y-%m-%d %H:%M:%S'
 ```
+
+Current UTC time:
+```shell
+date -u
+```

@@ -1,7 +1,15 @@
 # sdkman
 
-### Usage
+sdkman - The Software Development Kit Manager
 
+## Sources
+
+- Website: https://sdkman.io
+- GitHub Repository: https://github.com/sdkman/sdkman-cli
+
+## Usage
+
+Installing `sdkman`:
 ```shell
 curl -sSL "https://get.sdkman.io" | bash
 ```
@@ -23,8 +31,3 @@ sdk list maven
 
 sdk install maven
 ```
-
-### Source
-
-- https://sdkman.io
-- https://github.com/sdkman/sdkman-cli
