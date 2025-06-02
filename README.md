@@ -8,7 +8,6 @@ Linux guide!
 - [Linux browsers](https://github.com/lbrealdev/0k-linux/tree/main/browsers)
 - [Linux dev-tools](https://github.com/lbrealdev/0k-linux/tree/main/dev-tools)
 
-
 ### Terminal Apps
 
 - [TerminalApps](https://terminal-apps.dev/)
@@ -23,3 +22,7 @@ Linux guide!
 ### Linux Packages
 
 - https://pkgs.org
+
+### Linux Web Pages
+
+- [Shell Fu](https://www.shell-fu.org/)

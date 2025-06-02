@@ -16,20 +16,27 @@ getent passwd
 compgen -u
 ```
 
-### List all the connected users
+## who
 
 ```shell
 who
 ```
 
-### Print the groups for a user
+## groups
 
+Get groups from a specific user:
 ```shell
 groups signet
 ```
 
-### Create a user
+## useradd
 
+Print useradd configuration:
+```shell
+useradd -D
+```
+
+Create a user:
 ```shell
 adduser signet --comment "" --disabled-password
 ```
@@ -38,20 +45,17 @@ adduser signet --comment "" --disabled-password
 useradd signet -m
 ```
 
-### Delete a user
-
+Delete a user:
 ```shell
 sudo userdel -r signet
 ```
 
-### Add user to group
-
+Add user to group:
 ```shell
 usermod -aG <group> signet
 ```
 
-### Verify sudo access
-
+Verify sudo access:
 ```shell
 sudo -l -U signet
 ```
@@ -61,3 +65,4 @@ sudo -l -U signet
 - https://linuxhandbook.com/check-if-user-has-sudo-rights/
 - https://linuxhandbook.com/create-sudo-user/
 - https://linuxhandbook.com/userdel-command/
+- https://www.golinuxcloud.com/add-user-to-sudoers/
