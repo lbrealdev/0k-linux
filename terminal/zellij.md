@@ -1,5 +1,10 @@
 # Zellij
 
-Zellij - [Web](https://zellij.dev/)/[GitHub](https://github.com/zellij-org/zellij)
+## Sources
+
+- https://zellij.dev/
+- https://github.com/zellij-org/zellij
+
+## Installation
 
 // to do

@@ -1,6 +1,9 @@
 # Ghostty
 
-Ghostty - [Web](https://ghostty.org/)/[GitHub](https://github.com/ghostty-org/ghostty)
+## Sources
+
+- https://ghostty.org
+- https://github.com/ghostty-org/ghostty
 
 ## Installation
 
@@ -56,7 +59,6 @@ Ghostty configuration file:
 
 ## Related links
 
-- https://askubuntu.com/questions/694681/installing-libx11-a-libx11-so-and-xlib-h
-- https://github.com/ghostty-org/ghostty/discussions/3739
-- https://github.com/clayrisser/debian-ghostty/
 - https://ghostty.org/docs/install/binary#linux-(official)
+- https://github.com/ghostty-org/ghostty/discussions/3739
+- https://askubuntu.com/questions/694681/installing-libx11-a-libx11-so-and-xlib-h

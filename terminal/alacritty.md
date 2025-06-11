@@ -1,5 +1,10 @@
 # Alacritty
 
-Alacritty - [Web](https://alacritty.org/)/[GitHub](https://github.com/alacritty/alacritty)
+## Sources
+
+- https://alacritty.org/
+- https://github.com/alacritty/alacritty
+
+## Installation
 
 // to do

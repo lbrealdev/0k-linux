@@ -1,14 +1,14 @@
-# Linux Terminals
+# Linux terminal
 
-## Terminals
+## Terminal Emulators
 
-- [alacritty](https://github.com/lbrealdev/0k-linux/blob/main/terminals/alacritty.md)
-- [ghostty](https://github.com/lbrealdev/0k-linux/blob/main/terminals/ghostty.md)
-- [kitty](https://github.com/lbrealdev/0k-linux/blob/main/terminals/kitty.md)
-- [tmux](https://github.com/lbrealdev/0k-linux/blob/main/terminals/tmux.md)
-- [zellij](https://github.com/lbrealdev/0k-linux/blob/main/terminals/zellij.md)
+- [alacritty](https://github.com/lbrealdev/0k-linux/blob/main/terminal/alacritty.md)
+- [ghostty](https://github.com/lbrealdev/0k-linux/blob/main/terminal/ghostty.md)
+- [kitty](https://github.com/lbrealdev/0k-linux/blob/main/terminal/kitty.md)
+- [tmux](https://github.com/lbrealdev/0k-linux/blob/main/terminal/tmux.md)
+- [zellij](https://github.com/lbrealdev/0k-linux/blob/main/terminal/zellij.md)
 
-## Customize terminal tools
+## Terminal Tools
 
 - Gogh - [Web](https://gogh-co.github.io/Gogh/)/[GitHub](https://github.com/Gogh-Co/Gogh)
 
