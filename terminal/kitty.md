@@ -1,6 +1,9 @@
 # Kitty
 
-Kitty - [Web](https://sw.kovidgoyal.net/kitty/)/[GitHub](https://github.com/kovidgoyal/kitty)
+## Sources
+
+- https://sw.kovidgoyal.net/kitty/
+- https://github.com/kovidgoyal/kitty
 
 ## Installation
 
@@ -20,6 +23,6 @@ sed -i "s|Exec=kitty|Exec=$(readlink -f ~)/.local/kitty.app/bin/kitty|g" ~/.loca
 echo 'kitty.desktop' > ~/.config/xdg-terminals.list
 ```
 
-## Sources
+## Related links
 
 - https://sw.kovidgoyal.net/kitty/binary/
