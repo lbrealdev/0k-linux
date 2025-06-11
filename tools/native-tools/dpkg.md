@@ -22,7 +22,7 @@ dpkg-query -W <package>
 ```
 
 ```shell
-dpkg -W --showformat='${Package} ${Version}\n'
+dpkg-query -W --showformat='${Package} ${Version}\n'
 ```
 
 ```shell
