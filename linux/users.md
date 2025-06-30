@@ -66,3 +66,4 @@ sudo -l -U signet
 - https://linuxhandbook.com/create-sudo-user/
 - https://linuxhandbook.com/userdel-command/
 - https://www.golinuxcloud.com/add-user-to-sudoers/
+- https://linuxopsys.substack.com/p/creating-and-managing-user-accounts
