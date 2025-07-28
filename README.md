@@ -23,6 +23,7 @@ Linux guide!
 
 - https://pkgs.org
 
-### Linux Web Pages
+### Linux Resouces
 
 - [Shell Fu](https://www.shell-fu.org/)
+- [LinuxOpsys](https://linuxopsys.substack.com/)
