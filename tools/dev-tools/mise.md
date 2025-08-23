@@ -10,9 +10,15 @@ mise - dev tools, env vars, task runner
 ## Usage
 
 ```shell
-curl -sSL "https://github.com/jdx/mise/releases/download/v2024.6.6/mise-v2024.6.6-linux-x64" > /usr/local/bin/mise
+curl -fsSLo "mise" "https://github.com/jdx/mise/releases/download/v2025.8.18/mise-v2025.8.18-linux-x64"
+```
 
-chmod +x /usr/local/bin/mise
+```shell
+sudo mv mise /usr/local/bin/
+```
+
+```shell
+sudo chmod +x /usr/local/bin/mise
 ```
 
 ```shell
