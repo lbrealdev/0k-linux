@@ -55,14 +55,24 @@ List installed and active tools:
 mise ls
 ```
 
-Setup node v22:
+Gets information about a tool:
+```shell
+mise tool python
+```
+
+Install `node`:
 ```shell
 mise use --global node@22
 ```
 
-Setup mermaid-cli:
+Install `mermaid-cli`:
 ```shell
 mise use -g npm:@mermaid-js/mermaid-cli
 
 mise uninstall npm:@mermaid-js/mermaid-cli
+```
+
+Install `aws-cli`:
+```shell
+mise use aws-cli
 ```
