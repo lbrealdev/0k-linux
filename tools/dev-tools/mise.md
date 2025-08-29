@@ -11,23 +11,25 @@ mise - dev tools, env vars, task runner
 
 ### Install
 
+Download `mise` binary from GitHub release page:
 ```shell
 curl -fsSLo "mise" "https://github.com/jdx/mise/releases/download/v2025.8.18/mise-v2025.8.18-linux-x64"
 ```
 
+Move `mise` binary to `/usr/local/bin`:
 ```shell
 sudo mv mise /usr/local/bin/
 ```
 
+Change `mise` binary permissions:
 ```shell
 sudo chmod +x /usr/local/bin/mise
 ```
 
+Update `~/.bashrc` with `mise` settings:
 ```shell
 echo 'eval "$(mise activate bash)"' >> ~/.bashrc
-```
 
-```shell
 echo 'export PATH=$HOME/.local/share/mise/shims:$PATH' >> ~/.bashrc
 ```
 
