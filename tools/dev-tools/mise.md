@@ -9,6 +9,8 @@ mise - dev tools, env vars, task runner
 
 ## Usage
 
+### Install
+
 ```shell
 curl -fsSLo "mise" "https://github.com/jdx/mise/releases/download/v2025.8.18/mise-v2025.8.18-linux-x64"
 ```
@@ -29,19 +31,38 @@ echo 'eval "$(mise activate bash)"' >> ~/.bashrc
 echo 'export PATH=$HOME/.local/share/mise/shims:$PATH' >> ~/.bashrc
 ```
 
+### Uninstall
+
+// to do
+
+### Update
+
 Update `mise` version:
 ```shell
 mise self-update
 ```
 
+### Settings
+
+```shell
+mise settings set experimental true
+```
+
+### Manage Tools
+
+List installed and active tools:
+```shell
+mise ls
+```
+
+Setup node v22:
 ```shell
 mise use --global node@22
+```
 
-mise settings set experimental true
-
+Setup mermaid-cli:
+```shell
 mise use -g npm:@mermaid-js/mermaid-cli
-
-mise ls
 
 mise uninstall npm:@mermaid-js/mermaid-cli
 ```
