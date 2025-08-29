@@ -4,8 +4,8 @@ mise - dev tools, env vars, task runner
 
 ## Sources
 
-- Website: https://mise.jdx.dev/
-- GitHub Repository: https://github.com/jdx/mise/
+- https://mise.jdx.dev/
+- https://github.com/jdx/mise/
 
 ## Usage
 
