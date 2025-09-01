@@ -57,6 +57,11 @@ List all available keybinds:
 ghostty +list-keybinds --default
 ```
 
+List all available actions:
+```shell
+ghostty +list-actions
+```
+
 Ghostty configuration file:
 ```
 ~/.config/ghostty/config
@@ -64,6 +69,7 @@ Ghostty configuration file:
 
 ## Related links
 
+- https://ghostty.org/docs/config
 - https://ghostty.org/docs/install/binary#linux-(official)
 - https://github.com/ghostty-org/ghostty/discussions/3739
 - https://askubuntu.com/questions/694681/installing-libx11-a-libx11-so-and-xlib-h
