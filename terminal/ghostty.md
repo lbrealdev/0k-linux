@@ -52,6 +52,11 @@ List themes:
 ghostty +list-themes
 ```
 
+List all available keybinds:
+```shell
+ghostty +list-keybinds --default
+```
+
 Ghostty configuration file:
 ```
 ~/.config/ghostty/config
