@@ -24,6 +24,12 @@ Comment line 3 with # and add `nameserver ip` to the last line in resolv.conf fi
 sed -i -e '3s/^/# /' -e '$ a nameserver 180.100.250.01' /etc/resolv.conf
 ```
 
+Comment ...
+```shell
+sed -i -e '43,106s/^/# /' -e '120,171s/^/# /' -e '179,225s/^/# /' /home/cloud-user/scripts/bastion_preparation.sh
+```
+
+
 # Related links
 
 - [Everything you need to know about sed substitution](https://learnbyexample.github.io/everything-about-sed-substitution/)

@@ -29,7 +29,8 @@ sudo chmod +x /usr/local/bin/mise
 Update `~/.bashrc` with `mise` settings:
 ```shell
 echo 'eval "$(mise activate bash)"' >> ~/.bashrc
-
+```
+```
 echo 'export PATH=$HOME/.local/share/mise/shims:$PATH' >> ~/.bashrc
 ```
 
