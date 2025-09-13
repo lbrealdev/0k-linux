@@ -1,6 +1,11 @@
 # git
 
-git - the stupid content tracker
+Git - fast, scalable, distributed revision control system.
+
+## Sources
+
+- https://git-scm.com/
+- https://github.com/git/git
 
 ## Usage
 

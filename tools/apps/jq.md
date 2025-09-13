@@ -1,6 +1,11 @@
 # jq
 
-jq - Command-line JSON processor
+Command-line JSON processor.
+
+## Sources
+
+- https://jqlang.org/
+- https://github.com/jqlang/jq
 
 ## Usage
 
@@ -19,7 +24,3 @@ echo "repo-name,description,true,https://myweb.io" | jq -R 'split(",") | {name: 
 ```shell
 cat repos.json | jq -r '(["REPO","PRIVATE","FORK","HOMEPAGE"] | (., map(length*"-"))), (.[] | [.full_name, .private, .fork, .homepage]) | @tsv' | column -ts $'\t'
 ```
-
-## Resources links
-
-// to do
