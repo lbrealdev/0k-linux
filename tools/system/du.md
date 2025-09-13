@@ -7,3 +7,7 @@ du - estimate file space usage
 ```shell
 du -h --exclude="*.txt" <directory>
 ```
+
+```shell
+du -hsx /var/lib/* | sort -rh | head -10
+```
