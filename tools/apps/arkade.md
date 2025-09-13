@@ -1,4 +1,4 @@
-# Arkade - Open Source Marktplace Tools
+# arkade
 
 Open Source Marketplace For Developer Tools.
 
