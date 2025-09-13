@@ -7,7 +7,6 @@ Extract subtitle from a mkv file:
 ffmpeg -i video.mkv -map 0:s:0 subs.srt
 ```
 
-
 ### ffmpeg useful links
 
 - [ffmpeg by exambple](https://ffmpegbyexample.com/)

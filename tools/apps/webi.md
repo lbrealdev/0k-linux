@@ -2,14 +2,14 @@
 
 Effortlessly install developer tools with easy-to-remember URLs.
 
-### Usage
-
-Install bat using webi:
-```shell
-curl -sS https://webi.sh/bat | sh
-```
-
-### Source
+## Sources
 
 - https://webinstall.dev/
 - https://github.com/webinstall/webi-installers
+
+## Usage
+
+Install `bat` using webi:
+```shell
+curl -sS https://webi.sh/bat | sh
+```
