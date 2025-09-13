@@ -1,8 +1,8 @@
 # Linux tools
 
-- [Apps]()
-- [Development]()
-- [System]()
+- [Apps](https://github.com/lbrealdev/0k-linux/tree/main/tools/apps)
+- [Development](https://github.com/lbrealdev/0k-linux/tree/main/tools/development)
+- [System](https://github.com/lbrealdev/0k-linux/tree/main/tools/system)
 
 ### More tools
 
