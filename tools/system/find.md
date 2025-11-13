@@ -33,3 +33,7 @@ Use find to search for specific files and move to destination path:
 ```shell
 find . -type f -name "pattern_*" -exec mv "{}" /move/to/path \;
 ```
+
+```shell
+find . -type f \( -name "*.mp3" -name "*jpg" -o -name "*.txt" \) -exec chmod u+rw "{}" \;
+```

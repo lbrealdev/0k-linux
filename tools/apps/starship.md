@@ -13,7 +13,7 @@ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
 Install the startship binary:
 ```shell
-curl -fsSL https://starship.rs/install.sh | sh -s -- -y
+curl -sS https://starship.rs/install.sh | sh -s -- -y
 ```
 
 Add the init script to your shell's config file:
