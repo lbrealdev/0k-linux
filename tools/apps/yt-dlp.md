@@ -1,8 +1,12 @@
 # yt-dlp
 
-### Sources
+A feature-rich command-line audio/video downloader.
+
+## Source
 
 - https://github.com/yt-dlp/yt-dlp
+
+## Usage
 
 ### Install
 

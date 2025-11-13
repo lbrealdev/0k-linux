@@ -29,3 +29,11 @@ ps -eo user,pid,%mem,command --sort=%mem
 ```shell
 ps -eo user,pid,%cpu,%mem,command --sort=%cpu
 ```
+
+```shell
+ ps -eo pid,args --forest
+```
+
+```shell
+ps -eo pid,%cpu,%mem,command | sort -nk 3 | tail
+```
