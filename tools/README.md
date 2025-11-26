@@ -1,8 +1,8 @@
 # Linux tools
 
-- [Apps](https://github.com/lbrealdev/0k-linux/tree/main/tools/apps)
-- [Development](https://github.com/lbrealdev/0k-linux/tree/main/tools/development)
-- [System](https://github.com/lbrealdev/0k-linux/tree/main/tools/system)
+- [Apps](apps/README.md)
+- [Development](development/README.md)
+- [System](system/README.md)
 
 ### More tools
 
