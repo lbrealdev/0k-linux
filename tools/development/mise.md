@@ -13,7 +13,7 @@ mise - dev tools, env vars, task runner
 
 Download `mise` binary from GitHub release page:
 ```shell
-curl -fsSLo "mise" "https://github.com/jdx/mise/releases/download/v2025.8.18/mise-v2025.8.18-linux-x64"
+curl -fsSLo "mise" "https://github.com/jdx/mise/releases/download/v2025.11.8/mise-v2025.11.8-linux-x64"
 ```
 
 Move `mise` binary to `/usr/local/bin`:
