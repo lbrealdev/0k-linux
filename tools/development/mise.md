@@ -55,6 +55,11 @@ mise settings set experimental true
 
 ### Manage Tools
 
+Search for a tool in the registry:
+```shell
+mise search <tool>
+```
+
 List installed and active tools:
 ```shell
 mise ls
@@ -100,22 +105,21 @@ Display the installation path for a tool:
 mise where <tool>
 ```
 
+Run a command with a specific tool:
 ```shell
 mise x node@25 -- node --version
 ```
 
-## Tools
+### Tools
 
 Install `node`:
 ```shell
-mise use --global node@22
+mise use -g node
 ```
 
 Install `mermaid-cli`:
 ```shell
 mise use -g npm:@mermaid-js/mermaid-cli
-
-mise uninstall npm:@mermaid-js/mermaid-cli
 ```
 
 Install `aws-cli`:
