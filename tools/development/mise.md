@@ -30,7 +30,9 @@ Update `~/.bashrc` with `mise` settings:
 ```shell
 echo 'eval "$(mise activate bash)"' >> ~/.bashrc
 ```
-```
+
+Add a new path to the PATH environment variable:
+```shell
 echo 'export PATH=$HOME/.local/share/mise/shims:$PATH' >> ~/.bashrc
 ```
 
@@ -62,6 +64,47 @@ Gets information about a tool:
 ```shell
 mise tool python
 ```
+
+List outdated tools:
+```shell
+mise outdated
+```
+
+Upgrade all outdated tools:
+```shell
+mise upgrade
+```
+
+Upgrade a specific tool:
+```shell
+mise upgrade <tool>
+```
+
+Install a specific tool:
+```shell
+mise install <tool>
+```
+
+Remove a specific tool:
+```shell
+mise uninstall <tool>
+```
+
+Remove installed tool from mise.toml:
+```shell
+mise unuse <tool>
+```
+
+Display the installation path for a tool:
+```shell
+mise where <tool>
+```
+
+```shell
+mise x node@25 -- node --version
+```
+
+## Tools
 
 Install `node`:
 ```shell
