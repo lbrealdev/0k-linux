@@ -31,7 +31,7 @@ Update `~/.bashrc` with `mise` settings:
 echo 'eval "$(mise activate bash)"' >> ~/.bashrc
 ```
 
-Add a new path to the PATH environment variable:
+Add shims path to the PATH environment variable:
 ```shell
 echo 'export PATH=$HOME/.local/share/mise/shims:$PATH' >> ~/.bashrc
 ```
