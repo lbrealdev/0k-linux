@@ -13,7 +13,7 @@ mise - dev tools, env vars, task runner
 
 Download `mise` binary from GitHub release page:
 ```shell
-curl -fsSLo "mise" "https://github.com/jdx/mise/releases/download/v2025.8.18/mise-v2025.8.18-linux-x64"
+curl -fsSLo "mise" "https://github.com/jdx/mise/releases/download/v2025.11.8/mise-v2025.11.8-linux-x64"
 ```
 
 Move `mise` binary to `/usr/local/bin`:
@@ -30,7 +30,9 @@ Update `~/.bashrc` with `mise` settings:
 ```shell
 echo 'eval "$(mise activate bash)"' >> ~/.bashrc
 ```
-```
+
+Add shims path to the PATH environment variable:
+```shell
 echo 'export PATH=$HOME/.local/share/mise/shims:$PATH' >> ~/.bashrc
 ```
 
@@ -53,6 +55,11 @@ mise settings set experimental true
 
 ### Manage Tools
 
+Search for a tool in the registry:
+```shell
+mise search <tool>
+```
+
 List installed and active tools:
 ```shell
 mise ls
@@ -63,19 +70,59 @@ Gets information about a tool:
 mise tool python
 ```
 
+List outdated tools:
+```shell
+mise outdated
+```
+
+Upgrade all outdated tools:
+```shell
+mise upgrade
+```
+
+Upgrade a specific tool:
+```shell
+mise upgrade <tool>
+```
+
+Install a specific tool:
+```shell
+mise install <tool>
+```
+
+Remove a specific tool:
+```shell
+mise uninstall <tool>
+```
+
+Remove installed tool from mise.toml:
+```shell
+mise unuse <tool>
+```
+
+Display the installation path for a tool:
+```shell
+mise where <tool>
+```
+
+Run a command with a specific tool:
+```shell
+mise x node@25 -- node --version
+```
+
+### Tools
+
 Install `node`:
 ```shell
-mise use --global node@22
+mise use -g node
 ```
 
 Install `mermaid-cli`:
 ```shell
 mise use -g npm:@mermaid-js/mermaid-cli
-
-mise uninstall npm:@mermaid-js/mermaid-cli
 ```
 
 Install `aws-cli`:
 ```shell
-mise use aws-cli
+mise use -g aws-cli
 ```

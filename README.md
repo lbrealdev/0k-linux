@@ -4,7 +4,7 @@ Linux guide!
 
 <!-- TOC -->
 
-- [Linux tools](https://github.com/lbrealdev/0k-linux/tree/main/tools)
+- [Linux tools](tools/README.md)
 - [Linux browsers](https://github.com/lbrealdev/0k-linux/tree/main/browsers)
 
 ### Terminal Apps
