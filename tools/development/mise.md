@@ -124,5 +124,5 @@ mise use -g npm:@mermaid-js/mermaid-cli
 
 Install `aws-cli`:
 ```shell
-mise use aws-cli
+mise use -g aws-cli
 ```

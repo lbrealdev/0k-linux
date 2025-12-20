@@ -1,2 +1,5 @@
 # IDEs and editors
 .idea/
+
+# Mise configuration file
+mise.toml
