@@ -28,7 +28,7 @@ Play media file directly with `ffplay`:
 ffplay video.mkv
 ```
 
-### Related links
+## Related links
 
 - [ffmpeg by example](https://ffmpegbyexample.com/)
 - [How to extract subtitle from video using ffmpeg?](https://superuser.com/questions/583393/how-to-extract-subtitle-from-video-using-ffmpeg)
