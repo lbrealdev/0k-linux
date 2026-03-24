@@ -14,39 +14,58 @@ List all services:
 systemctl list-units --type service --all
 ```
 
+```shell
+systemctl list-units --type service --state active
+```
+
+```shell
+systemctl list-units --type service --state inactive
+```
+
 List all timers:
 ```shell
- systemctl list-units --type timer --all
+systemctl list-units --type timer --all
 ```
 
 List all targets:
 ```shell
- systemctl list-units --type target --all
+systemctl list-units --type target --all
 ```
+
+```shell
+systemctl list-units --type timer --state not-found,waiting
+```
+
+## Timers
+
+```shell
+systemctl list-timers
+```
+
 
 List unit file and show state:
 ```shell
- systemctl list-unit-files --full
+systemctl list-unit-files --full
 ```
 
 List unit file for timers:
 ```shell
- systemctl list-unit-files --type timer
+systemctl list-unit-files --type timer
 ```
 
 List unit file for targets:
 ```shell
- systemctl list-unit-files --type target
+systemctl list-unit-files --type target
 ```
 
 List unit file for services:
 ```shell
- systemctl list-unit-files --type service
+systemctl list-unit-files --type service
 ```
 
 Show service unit file:
 ```shell
- systemctl cat sshd.service
+systemctl cat sshd.service
 ```
 
 ### Systemd articles

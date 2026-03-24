@@ -4,9 +4,18 @@ grep, egrep, fgrep, rgrep - print lines that match patterns
 
 ## Usage
 
-Show 2 lines before and after the match:
+Show 2 lines before and after the match using case insensitive `-i`:
 ```shell
 printf "C\nC++\nPython\nRust\nGolang\nRuby\nJava\nJavaScript\n" | grep -i -C2 "rust"
+```
+
+Multiple matches:
+```shell
+printf "C\nC++\nPython\nRust\nGolang\nRuby\nJava\nJavaScript\n" | grep -E "Ruby|Python|Go"
+```
+
+```shell
+git branch -a | grep -oP '^\s*\*?\s*<pattern>\d+$'
 ```
 
 ### Lookarounds

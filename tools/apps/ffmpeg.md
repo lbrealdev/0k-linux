@@ -7,11 +7,25 @@ A complete, cross-platform solution to record, convert and stream audio and vide
 - https://ffmpeg.org/
 - https://github.com/FFmpeg/FFmpeg
 
+## Installation
+
+```shell
+sudo apt install ffmpeg -y
+```
+
 ## Usage
 
 Extract subtitle from a mkv file:
 ```shell
 ffmpeg -i video.mkv -map 0:s:0 subs.srt
+```
+
+```shell
+ffprobe video.mkv
+```
+
+```shell
+ffplay video.mkv
 ```
 
 ### Related links

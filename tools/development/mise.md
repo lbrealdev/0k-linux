@@ -6,6 +6,7 @@ mise - dev tools, env vars, task runner
 
 - https://mise.jdx.dev/
 - https://github.com/jdx/mise/
+- https://mise-versions.jdx.dev/
 
 ## Usage
 
@@ -36,15 +37,43 @@ Add shims path to the PATH environment variable:
 echo 'export PATH=$HOME/.local/share/mise/shims:$PATH' >> ~/.bashrc
 ```
 
+### Option
+
+```shell
+curl -s https://mise.run | sh
+```
+
+```shell
+echo 'eval "$(mise activate bash)"' >> ~/.bashrc
+```
+
+### Shim
+
+```shell
+mise reshim
+```
+
 ### Uninstall
 
-// to do
+```shell
+sed -i.bak '/\bmise\b/d' ~/.bashrc
+```
+
+```shell
+sudo rm -rf /usr/local/bin/mise
+```
 
 ### Update
 
 Update `mise` version:
 ```shell
-mise self-update
+mise self-update -y
+```
+
+### Cache
+
+```shell
+mise cache clear
 ```
 
 ### Settings
@@ -97,7 +126,7 @@ mise uninstall <tool>
 
 Remove installed tool from mise.toml:
 ```shell
-mise unuse <tool>
+mise unuse <tool> -y
 ```
 
 Display the installation path for a tool:
@@ -125,4 +154,36 @@ mise use -g npm:@mermaid-js/mermaid-cli
 Install `aws-cli`:
 ```shell
 mise use -g aws-cli
+```
+
+### Config
+
+```shell
+# full
+mise config ls
+
+# alias
+mise cfg ls
+```
+
+```shell
+mise cfg set tools.deno latest
+```
+
+```shell
+mise ls -c -J -l
+```
+
+```shell
+mise bin-paths
+```
+
+### Doctor
+
+```shell
+mise doctor
+```
+
+```shell
+mise doctor path
 ```

@@ -24,5 +24,6 @@ Linux guide!
 
 ### Linux Resouces
 
+- [Explain Shell](https://explainshell.com/)
 - [Shell Fu](https://www.shell-fu.org/)
-- [LinuxOpsys](https://linuxopsys.substack.com/)
+- [Linux Opsys](https://linuxopsys.substack.com/)

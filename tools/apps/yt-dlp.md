@@ -25,6 +25,13 @@ Update `yt-dlp` for pip installations:
 python -m pip install yt-dlp -U
 ```
 
+
+###
+
+```shell
+yt-dlp --list-extractors
+```
+
 ### Download from Facebook
 
 Download from Facebook loading cookies from your browser:
