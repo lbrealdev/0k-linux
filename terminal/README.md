@@ -2,11 +2,11 @@
 
 ## Terminal Emulators
 
-- [alacritty](https://github.com/lbrealdev/0k-linux/blob/main/terminal/alacritty.md)
-- [ghostty](https://github.com/lbrealdev/0k-linux/blob/main/terminal/ghostty.md)
-- [kitty](https://github.com/lbrealdev/0k-linux/blob/main/terminal/kitty.md)
-- [tmux](https://github.com/lbrealdev/0k-linux/blob/main/terminal/tmux.md)
-- [zellij](https://github.com/lbrealdev/0k-linux/blob/main/terminal/zellij.md)
+- [alacritty](alacritty.md)
+- [ghostty](ghostty.md)
+- [kitty](kitty.md)
+- [tmux](tmux.md)
+- [zellij](zellij.md)
 
 ## Resources
 
@@ -15,6 +15,11 @@
 ## Terminal Tools
 
 - Gogh - [Web](https://gogh-co.github.io/Gogh/)/[GitHub](https://github.com/Gogh-Co/Gogh)
+
+## Terminal Discovery
+
+- [TerminalApps](https://terminal-apps.dev/)
+- [Terminal Trove](https://terminaltrove.com/)
 
 ## Blogs
 

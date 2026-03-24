@@ -17,3 +17,18 @@
 - [bats-core](https://github.com/bats-core/bats-core)
 - [bats-file](https://github.com/bats-core/bats-file)
 - [bats-assert](https://github.com/bats-core/bats-assert)
+
+### Cheat Sheets
+
+- [SpeedSheet - Linux Sheet](https://speedsheet.io/s/linux)
+- [SpeedSheet - Bash Sheet](https://speedsheet.io/s/bash)
+
+### Packages
+
+- https://pkgs.org
+
+### Linux Resources
+
+- [Explain Shell](https://explainshell.com/)
+- [Shell Fu](https://www.shell-fu.org/)
+- [Linux Opsys](https://linuxopsys.substack.com/)
