@@ -2,11 +2,6 @@
 
 Command-line JSON processor.
 
-## Sources
-
-- https://jqlang.org/
-- https://github.com/jqlang/jq
-
 ## Usage
 
 Iterate over an array with `.[]`, filter objects with `select`, and format output with string interpolation `\()`:
@@ -52,3 +47,8 @@ Merge specific keys from multiple files:
 ```shell
 jq -s '{name: .[0].name, config: .[1].config}' file1.json file2.json
 ```
+
+## References
+
+- [jq Manual](https://jqlang.org/)
+- [jq GitHub](https://github.com/jqlang/jq)
