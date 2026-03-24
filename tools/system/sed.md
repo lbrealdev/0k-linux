@@ -14,6 +14,11 @@ Add text in line 5:
 sed -i '5i\  namespace: sigma' az-pvc.yml
 ```
 
+Delete file content:
+```shell
+sed -i d mise.toml
+```
+
 Delete line 5:
 ```shell
 sed -i '5d' az-pvc.yml

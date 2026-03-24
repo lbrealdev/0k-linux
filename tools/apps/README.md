@@ -1,8 +1,29 @@
-# Linux Tools
+# Linux Apps
 
-- [arkade](https://github.com/lbrealdev/0k-linux/blob/main/tools/apps/arkade.md)
-- [ffmpeg](https://github.com/lbrealdev/0k-linux/blob/main/tools/apps/ffmpeg.md)
-- [git](https://github.com/lbrealdev/0k-linux/blob/main/tools/apps/git.md)
-- [yt-dlp](https://github.com/lbrealdev/0k-linux/blob/main/tools/apps/yt-dlp.md)
-- [starship](https://github.com/lbrealdev/0k-linux/blob/main/tools/apps/starship.md)
-- [webi](https://github.com/lbrealdev/0k-linux/blob/main/tools/apps/webi.md)
+## Media
+
+- [ffmpeg](ffmpeg.md) - Audio and video conversion and streaming
+- [yt-dlp](yt-dlp.md) - Command-line audio and video downloader
+
+## Data
+
+- [jq](jq.md) - Command-line JSON processor
+- [qrencode](qrencode.md) - QR code encoding
+
+## Installers
+
+- [arkade](arkade.md) - Open source marketplace for developer tools
+- [webi](webi.md) - Effortless tool installation via URLs
+
+## Editor
+
+- [neovim](neovim.md) - Hyperextensible Vim-based text editor
+- [git](git.md) - Distributed version control
+
+## Shell
+
+- [starship](starship.md) - Customizable cross-shell prompt
+
+## Virtualization
+
+- [vbox](vbox.md) - Virtual machine management

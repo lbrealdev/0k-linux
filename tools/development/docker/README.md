@@ -1,6 +1,6 @@
 # Docker
 
-### Docker command guide
+## Docker command guide
 
 <!-- TOC -->
 
@@ -12,6 +12,9 @@
 - [docker ps](#docker-ps)
 - [docker start](#docker-start)
 - [docker stop](#docker-stop)
+- [docker logs](#docker-logs)
+- [docker rm](#docker-rm)
+- [docker rmi](#docker-rmi)
 - [docker stats](#docker-stats)
 - [docker system](#docker-system)
 
@@ -148,11 +151,11 @@ Remove docker unused data:
 docker system prune -a --volumes -f
 ```
 
-### Repositories
+## Repositories
 
 - https://github.com/GoogleContainerTools/distroless
 - https://github.com/hotheadhacker/awesome-selfhost-docker
 
-### Registries
+## Registries
 
 - https://images.chainguard.dev/
