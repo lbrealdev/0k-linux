@@ -24,6 +24,18 @@ if [[ "${1:-}" == "-h" || "${1:-}" == "--help" ]]; then
   exit 0
 fi
 
+if ! command -v mise &>/dev/null; then
+  echo "mise is not installed. Nothing to remove."
+  exit 1
+fi
+
+MISE_BIN=$(command -v mise)
+SUDO=""
+if [[ "$MISE_BIN" == "/usr/local/bin/mise" || "$MISE_BIN" == "/usr/bin/mise" ]]; then
+  SUDO="sudo"
+  sudo -v
+fi
+
 # --- Part 1: Remove all tools ---
 
 echo "==> Step 1: Uninstalling all tool versions..."
@@ -41,7 +53,7 @@ echo "==> Step 3: Capturing mise paths to delete..."
 IMPLODE_PATHS=$(mise implode -n --config | sed 's/^rm -rf //')
 
 echo "==> Step 4: Removing mise directories and binary..."
-echo "$IMPLODE_PATHS" | xargs -I {} rm -rf "{}"
+echo "$IMPLODE_PATHS" | $SUDO xargs -I {} rm -rf "{}"
 
 echo "==> Step 5: Removing mise activation from ~/.bashrc (backup saved as ~/.bashrc.bak)..."
 sed -i.bak '/mise activate/d' ~/.bashrc
