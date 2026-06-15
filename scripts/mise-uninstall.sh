@@ -30,7 +30,7 @@ echo "==> Step 1: Uninstalling all tool versions..."
 mise uninstall --all
 
 echo "==> Step 2: Removing tools from global config..."
-MISE_TOOLS=$(mise ls -g --json | jq -r 'to_entries[] | .key')
+MISE_TOOLS=$(mise ls -g --no-header | awk '{print $1}')
 for tool in $MISE_TOOLS; do
   mise unuse -g "$tool" --yes
 done
