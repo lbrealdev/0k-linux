@@ -1,34 +1,38 @@
 # Linux
 
-### Linux blogs
+System administration notes and topic index.
 
-- [Linux Boot Partitions](https://0pointer.net/blog/linux-boot-partitions.html)
-- [Authenticated Boot and Disk Encryption on Linux](https://0pointer.net/blog/authenticated-boot-and-disk-encryption-on-linux.html)
-- [Brave New Trusted Boot World](https://0pointer.net/blog/brave-new-trusted-boot-world.html)
+## Topics
 
-### Linux Distros
+- [Bash](bash/README.md)
+- [CLI](cli/README.md)
+- [Kernel](kernel/README.md)
+- [Network](network/README.md)
+- [Security](security/README.md)
+- [Terminal](terminal/README.md)
+- [Tools](tools/README.md)
+- [Virtualization](virtualization/README.md)
+
+## Distros
 
 - [Distroware Archive - Linux Distributions Timeline](https://distroware.gitlab.io/)
   - [Distroware Archive - GitHub](https://github.com/FabioLolix/LinuxTimeline)
 
-### Related resources
+## Shell testing
 
 - [Unit-testing shell scripts and tools with shtk](https://jmmv.dev/2023/10/unit-testing-with-shtk.html)
 - [bats-core](https://github.com/bats-core/bats-core)
 - [bats-file](https://github.com/bats-core/bats-file)
 - [bats-assert](https://github.com/bats-core/bats-assert)
 
-### Cheat Sheets
+## Notes
 
-- [SpeedSheet - Linux Sheet](https://speedsheet.io/s/linux)
-- [SpeedSheet - Bash Sheet](https://speedsheet.io/s/bash)
-
-### Packages
-
-- https://pkgs.org
-
-### Linux Resources
-
-- [Explain Shell](https://explainshell.com/)
-- [Shell Fu](https://www.shell-fu.org/)
-- [Linux Opsys](https://linuxopsys.substack.com/)
+- [ACL](acl.md)
+- [Disk](disk.md)
+- [Linux tips](linux-tips.md)
+- [Maintenance](maintenance.md)
+- [Network](network.md)
+- [Parameter expansion](parameter-expansion.md)
+- [Sudoers](sudoers.md)
+- [USB](usb.md)
+- [Users](users.md)
