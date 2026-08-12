@@ -1,33 +1,90 @@
-# virtual box
+# VirtualBox
 
 ## Source
 
 - https://www.virtualbox.org/
 
-## Usage
+## Contents
 
-Resize `vdi`:
+<!-- TOC -->
+
+- [Resize VDI](#resize-vdi)
+- [Kill VirtualBox processes](#kill-virtualbox-processes)
+- [VBox commands](#vbox-commands)
+- [Resources](#resources)
+- [Related links](#related-links)
+
+## Resize VDI
+
+Grow a `.vdi` on the host when the VM is out of disk space.
+
+`--resize` is the **new size in MB**, not the amount to add. `51200` is 50 GB.
+Power the VM off first. This does not shrink a disk, and it does not grow
+the partition or filesystem inside the guest.
+
+Check the current size:
+
 ```shell
-VBoxManage modifymedium "/path/to/yourdisk.vdi" --resize 51200
+VBoxManage showmediuminfo disk "/path/to/yourdisk.vdi"
 ```
 
-List virtual machines:
+Set the new size (example: 50 GB):
+
 ```shell
-VBoxManage list vms
+VBoxManage modifymedium disk "/path/to/yourdisk.vdi" --resize 51200
 ```
 
-List running virtual machines:
+Then boot the guest and extend the partition/filesystem there
+(`growpart` + `resize2fs`/`xfs_growfs` on Linux, Disk Management on Windows).
+
+## Kill VirtualBox processes
+
+Use this when a VM is frozen or the VirtualBox UI will not quit.
+Stop **one** VM with `VBoxManage` first. Killing every `VBox*` process
+with `SIGKILL` can corrupt the disk and leave lock files behind.
+
+See what is running:
+
 ```shell
 VBoxManage list runningvms
 ```
 
-Get VirtualBox processes:
-```shell
-ps -aux | grep -E 'VirtualBoxVM|VBox|VirtualBox'
-```
+Ask the VM to shut down (ACPI):
 
 ```shell
-sudo kill -9 $(ps -aux | grep -E 'VirtualBoxVM|VBox|VirtualBox' | awk '{print $2}' | head -n -1)
+VBoxManage controlvm "VM name" acpipowerbutton
+```
+
+If it ignores ACPI, power it off:
+
+```shell
+VBoxManage controlvm "VM name" poweroff
+```
+
+If `VBoxManage` itself is stuck, list the processes:
+
+```shell
+pgrep -a -f 'VirtualBoxVM|VBox|VirtualBox'
+```
+
+Last resort, kill a **specific** PID (not the whole pipeline):
+
+```shell
+kill -9 <pid>
+```
+
+## VBox commands
+
+List registered VMs (name and UUID), running or not:
+
+```shell
+VBoxManage list vms
+```
+
+List only VMs that are running right now:
+
+```shell
+VBoxManage list runningvms
 ```
 
 ## Resources
