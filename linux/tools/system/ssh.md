@@ -2,6 +2,19 @@
 
 ssh — OpenSSH SSH client (remote login program)
 
+## Contents
+
+- [Installation](#installation)
+  - [Verify client](#verify-client)
+  - [Verify server is running](#verify-server-is-running)
+  - [Verify firewall allows SSH](#verify-firewall-allows-ssh)
+- [Usage](#usage)
+  - [ssh-agent](#ssh-agent)
+  - [Config files](#config-files)
+  - [Generate an SSH key](#generate-an-ssh-key)
+  - [Identity file](#identity-file)
+- [Related links](#related-links)
+
 ## Installation
 
 Search OpenSSH packages:
@@ -107,9 +120,13 @@ sudo nft list ruleset
 
 ## Usage
 
+### ssh-agent
+
 ```shell
 eval `ssh-agent -s`
 ```
+
+### Config files
 
 SSH config file:
 ```shell
@@ -137,6 +154,8 @@ When the public key is on the remote server, connect as follows:
 ```shell
 ssh user@server
 ```
+
+### Identity file
 
 Convert to PEM format:
 ```shell
