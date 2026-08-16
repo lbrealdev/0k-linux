@@ -72,6 +72,39 @@ ss -tlnp 'sport = :22'
 sudo netstat -tlnp | grep ssh
 ```
 
+### Verify firewall allows SSH
+
+ufw (Ubuntu, Debian, MX if installed):
+```shell
+sudo ufw status
+```
+
+Allow SSH if the firewall is active and 22 is not listed:
+```shell
+sudo ufw allow OpenSSH
+```
+
+firewalld (RHEL/Fedora):
+```shell
+sudo firewall-cmd --state
+sudo firewall-cmd --list-services
+```
+
+Allow SSH if needed:
+```shell
+sudo firewall-cmd --permanent --add-service=ssh
+sudo firewall-cmd --reload
+```
+
+If neither ufw nor firewalld is in use:
+```shell
+sudo iptables -L INPUT -n | grep -E '22|ssh'
+```
+
+```shell
+sudo nft list ruleset
+```
+
 ## Usage
 
 ```shell
