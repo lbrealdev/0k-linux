@@ -48,6 +48,21 @@ Start and enable on boot if needed (Debian/Ubuntu):
 sudo systemctl enable --now ssh
 ```
 
+SysVinit (MX Linux, Debian without systemd):
+```shell
+sudo service ssh status
+```
+
+```shell
+sudo /etc/init.d/ssh status
+```
+
+Start and enable on boot if needed:
+```shell
+sudo service ssh start
+sudo update-rc.d ssh defaults
+```
+
 Confirm it is listening (default port 22):
 ```shell
 ss -tlnp 'sport = :22'
